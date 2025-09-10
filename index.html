@@ -1,9 +1,81 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>Github</title>
-    </head>
-    <body>
-        <h1>Hello World!!</h1>
-        <h2>Welcome to Github</h2>
-    </body>
-    </html>
+    <meta charset="UTF-8">
+    <title>Simple Order Process Flow</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        ol {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 15px;
+        }
+
+        .decision {
+            font-weight: bold;
+            color: #d35400;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>🛒 Simple Order Process Flow</h1>
+
+    <ol>
+        <li>START</li>
+
+        <li class="decision">LOGIN?</li>
+        <ol type="a">
+            <li>If NO → REGISTER AGAIN</li>
+            <li>If YES → Proceed</li>
+        </ol>
+
+        <li>Choose from:
+            <ul>
+                <li>FOOD ITEMS</li>
+                <li>DINING</li>
+                <li>GROCERIES</li>
+            </ul>
+        </li>
+
+        <li class="decision">CONFIRM YOUR ORDER?</li>
+        <ol type="a">
+            <li>If YES → Proceed</li>
+        </ol>
+
+        <li>CHOOSE YOUR PAYMENT METHOD</li>
+
+        <li class="decision">PAYMENT DONE?</li>
+        <ol type="a">
+            <li>If NO → Go back to choose payment method</li>
+            <li>If YES → Proceed</li>
+        </ol>
+
+        <li>FILL YOUR DETAILS (Address, Number)</li>
+
+        <li>ORDER RECEIVED?</li>
+        <ol type="a">
+            <li>If NO → CALL PARTNER</li>
+            <li>If YES → Proceed</li>
+        </ol>
+
+        <li>FEEDBACK</li>
+
+        <li>STOP</li>
+    </ol>
+</body>
+
+</html>
