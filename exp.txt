@@ -1,0 +1,14 @@
+1. The process starts with the **START** step.
+2. First, the user must **LOGIN**.
+3. If not logged in, the user is told to **REGISTER AGAIN**.
+4. After login, the user can choose between **FOOD ITEMS, DINING, or GROCERIES**.
+5. Next, the user must **CONFIRM THEIR ORDER**.
+6. Then, they choose a **PAYMENT METHOD**.
+7. A check is done: **Is payment successful?**
+   * If NO → Go back to choose payment method.
+   * If YES → Proceed.
+8. The user must **FILL THEIR ADDRESS AND NUMBER**.
+9. Another check: **Is order received?**
+   * If NO → Call partner.
+   * If YES → Proceed.
+10. Finally, the user gives **FEEDBACK**, and the process ends at **STOP**.
